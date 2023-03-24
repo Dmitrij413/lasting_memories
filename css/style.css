@@ -85,3 +85,8 @@ nav a{
   margin: 224px auto ;
   justify-content: space-around;
 }
+
+.tables{
+  background-color: #fff;
+  display: flex;
+}
