@@ -1,1 +1,87 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Work+Sans&display=swap');
+
+*{
+  margin: 0;
+}
+
+h1{
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 68px;
+  line-height: 68px;
+  text-align: center;
+  text-transform: lowercase;
+  color: #FFFFFF;}
+
+h2{
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 68px;
+  line-height: 68px;
+  text-transform: lowercase;
+  color: #20201F;}
+
+h3{
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 68px;
+  line-height: 68px;
+  text-transform: lowercase;
+  color: #E5E2DE;}
+
+h4{
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 49px;
+  line-height: 58px;
+  text-align: center;
+  text-transform: lowercase;
+  color: #20201F}
+
+p{
+  font-family: 'Work Sans', serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 33px;
+  color: #20201F;
+}
+
+header{
+  background-image: url(/img/header-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 800px;
+  padding-top: 45px;
+}
+
+nav ul{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 734px;
+  padding: 0;
+  margin: 0 auto;
+  list-style-type: none;
+}
+
+nav a{
+  text-decoration: none;
+  font-family: 'Work Sans', serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 23px;color: #FFFFFF;
+}
+
+#logo{
+  display: flex;
+  max-width: 700px;
+  margin: 224px auto ;
+  justify-content: space-around;
+}
