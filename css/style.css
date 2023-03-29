@@ -146,6 +146,7 @@ input[type=text]{
   padding-left: 23px;
   border: 1px solid #8B8B8B;
   border-radius: 14px;
+  margin-bottom: 37px;
 }
 
 .tables-image{
@@ -188,4 +189,14 @@ input[type=text]{
   background: #E5E2DE;
   padding-top: 116px;
   padding-left: 84px;
+}
+
+.dealer{
+  height: 840px;
+}
+
+.dealer-img{
+  background-image: url(/img/texture.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
