@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Work+Sans&display=swap');
 
-*{
+*, *:before, *:after{
+  box-sizing: border-box;
   margin: 0;
 }
 
@@ -133,13 +134,18 @@ nav a{
   margin-bottom: 107px;
 }
 
-.tables-text input label{
-  font-family: 'Work Sans';
+input[type=text]{
+  font-family: 'Work Sans', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 19px;
   line-height: 23px;
   color: #8B8B8B;
+  width: 323px;
+  height: 62px;
+  padding-left: 23px;
+  border: 1px solid #8B8B8B;
+  border-radius: 14px;
 }
 
 .tables-image{
