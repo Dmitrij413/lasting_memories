@@ -200,3 +200,17 @@ input[type=text]{
   background-size: cover;
   background-repeat: no-repeat;
 }
+
+.inspire{
+  padding-top: 123px;
+  background: #20201F;
+  text-align: center;
+  position: relative;
+}
+
+.inspire-btn{
+  color: #E5E2DE;
+  border: 1px solid #E5E2DE;
+  margin-top: 129px;
+  margin-bottom: 122px;
+}
