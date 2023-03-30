@@ -35,6 +35,8 @@ h3{
   line-height: 68px;
   text-transform: lowercase;
   color: #E5E2DE;
+  position: absolute;
+  left: 165px;
 }
 
 h4{
@@ -206,15 +208,40 @@ input[type=text]{
   background: #20201F;
   text-align: center;
   position: relative;
+  overflow: hidden;
 }
 
 .inspire-btn{
   color: #E5E2DE;
   border: 1px solid #E5E2DE;
-  margin-top: 129px;
+  margin-top: 270px;
   margin-bottom: 122px;
 }
 
+.inspire-img{
+  position: absolute;
+}
+
+#inspire-img-1{
+  top: 0;
+  left: 84px;
+  width: 250px;
+  height: 500px;
+}
+
+#inspire-img-2{
+  top: 84px;
+  right: 0;
+  width: 250px;
+  height: 225px;
+}
+
+#inspire-img-3{
+  top: 410px;
+  right: 98px;
+  width: 250px;
+  height: 250px;
+}
 
 
 
