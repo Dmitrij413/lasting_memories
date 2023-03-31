@@ -243,7 +243,18 @@ input[type=text]{
   height: 250px;
 }
 
+.about{
+  padding-top: 121px;
+  padding-bottom: 115px;
+  align-content: center;
+  align-items: center;
+}
 
+.about-btn{
+  display: block;
+  position: relative;
+  margin: 34px auto 0;
+}
 
 
 
