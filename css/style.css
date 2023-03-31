@@ -256,7 +256,17 @@ input[type=text]{
   margin: 34px auto 0;
 }
 
+.become{
+  background-color: #f7f7f7f7;
+}
 
+.become-image{
+  background-image: url(/img/become-image.png);
+}
+
+#become-btn{
+  margin-bottom: 311px;
+}
 
 
 
