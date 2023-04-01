@@ -422,6 +422,8 @@ footer{
 }
 
 .footer__content-top{
+  max-width: 795px;
+  margin-bottom: 58px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -450,7 +452,16 @@ footer{
   padding: 0;
 }
 
+.footer__content-bottom{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
 
+.footer__content-bottom_elem{
+  width: 195px;
+}
 
 
 
