@@ -50,6 +50,15 @@ h4{
   color: #20201F
 }
 
+h5{
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
+  color: #20201F;
+}
+
 p{
   font-family: 'Work Sans', serif;
   font-style: normal;
@@ -64,6 +73,13 @@ button{
   border-radius: 42px;
   padding: 13px 30px;
   background-color: transparent;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 19px;
+  text-transform: lowercase;
+  color: #20201F;
 }
 
 button a{
@@ -268,8 +284,29 @@ input[type=text]{
   margin-bottom: 311px;
 }
 
+.request{
+  padding: 59px 84px;
+  background: #E5E2DE;
+  display: flex;
+  justify-content: space-between;
+}
 
+.request__text_header{
+  max-width: 330px;
+}
 
+.request-left{
+  max-width: 579px;
+}
+
+.request__text p{
+  line-height: 23px;
+  margin-bottom: 23px;
+}
+
+.request__text p span{
+  margin-left: 40px;
+}
 
 
 
