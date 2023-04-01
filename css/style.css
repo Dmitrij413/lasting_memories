@@ -420,7 +420,9 @@ footer{
   background: transparent;
 }
 
-
+.footer__content-top{
+  display: flex;
+}
 
 
 
