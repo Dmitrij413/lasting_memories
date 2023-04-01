@@ -101,6 +101,13 @@ header{
   background-position: center;
   height: 800px;
   padding-top: 45px;
+  position: relative;
+}
+
+.header__logo{
+  position: absolute;
+  top: 35px;
+  left: 55px;
 }
 
 nav ul{
@@ -122,7 +129,7 @@ nav a{
   line-height: 23px;color: #FFFFFF;
 }
 
-#logo{
+#name{
   display: flex;
   max-width: 700px;
   margin: 224px auto ;
@@ -280,6 +287,8 @@ input[type=text], input[type=email]{
 
 .become-image{
   background-image: url(/img/become-image.png);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 #become-btn{
@@ -313,8 +322,6 @@ input[type=text], input[type=email]{
 input[type=email]{
   width: 342px;
 }
-
-
 
 #cookie-label{
   font-family: 'Work Sans', sans-serif;
@@ -393,8 +400,25 @@ input[type=email]{
   background-color: #e9ecef;
 }
 
+footer{
+  background-color: #20201F;
+  padding: 74px 93px 78px 84px;
+  display: flex;
+}
 
+.footer__logo{
+  padding-right: 156px;
+}
 
+.footer__content{
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 23px;
+  color: #E5E2DE;
+  background: transparent;
+}
 
 
 
