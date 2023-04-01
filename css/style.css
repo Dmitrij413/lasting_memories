@@ -404,6 +404,7 @@ footer{
   background-color: #20201F;
   padding: 74px 93px 78px 84px;
   display: flex;
+  justify-content: space-between;
 }
 
 .footer__logo{
@@ -422,12 +423,32 @@ footer{
 
 .footer__content-top{
   display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
+.footer__content-top a{
+  text-decoration: none;
+  color: #E5E2DE;
+}
 
+.name{
+  margin-bottom: 28px;
+}
 
+.footer__content-top_column{
+  width: 142px;
+  /*margin-right: 48px;*/
+}
 
+.footer__content__elems li{
+  list-style-type: none;
+  padding-bottom: 10px;
+}
 
+.footer__content__elems ul{
+  padding: 0;
+}
 
 
 
