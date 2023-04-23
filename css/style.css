@@ -95,7 +95,7 @@ button a{
 }
 
 header{
-  background-image: url(./../img/header-bg.jpg);
+  background-image: url(../img/header-bg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -223,7 +223,7 @@ input[type=text], input[type=email]{
 }
 
 .dealer-img{
-  background-image: url(./../img/texture.jpg);
+  background-image: url(../img/texture.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -286,7 +286,7 @@ input[type=text], input[type=email]{
 }
 
 .become-image{
-  background-image: url(./../img/become-image.png);
+  background-image: url(../img/become-image.png);
   background-size: cover;
   background-repeat: no-repeat;
 }
